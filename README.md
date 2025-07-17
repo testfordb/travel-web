@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🌍 TravelBuddy
 
-First, run the development server:
+TravelBuddy is a modern, responsive travel agency website built with **Next.js**, **React**, and **Tailwind CSS**. It provides an elegant user interface for booking tours, exploring destinations, and reading travel blogs.  
+
+This project is fully componentized and optimized for **mobile, tablet, and desktop devices**.
+
+
+
+## 🚀 Live Demo
+[👉 View Live on Vercel](https://your-deployed-link.vercel.app)
+
+
+
+## 📸 Screenshots
+
+| Desktop View                           | Mobile View                          |
+|----------------------------------------|---------------------------------------|
+| ![Desktop Screenshot](./public/screenshot/desktop.jpg) | ![Mobile Screenshot](./public/screenshot/mobile.jpg) |
+
+
+
+## 🛠 Built With
+
+- [Next.js](https://nextjs.org/) – React Framework
+- [React](https://reactjs.org/) – Component-based UI
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS
+- [TypeScript](https://www.typescriptlang.org/) – Type safety
+- [AOS](https://michalsnik.github.io/aos/) – Scroll animations
+- [React Icons](https://react-icons.github.io/react-icons/) – Icon library
+
+
+
+## 📦 Getting Started
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/travelbuddy.git
+cd travelbuddy
+````
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3️⃣ Run development server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## 📤 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+You can deploy this Next.js app on **Vercel**:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?utm_source=github&utm_medium=readme&utm_campaign=travelbuddy)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📚 Learn More
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* [Next.js Docs](https://nextjs.org/docs)
+* [Tailwind CSS Docs](https://tailwindcss.com/docs)
+* [React Docs](https://reactjs.org/docs/getting-started.html)
+
+
+
+## 👨‍💻 Author
+
+* **testfordb** – [GitHub](https://github.com/testford)
+
+
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+````
+
