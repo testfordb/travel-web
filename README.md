@@ -7,8 +7,6 @@ This project is fully componentized and optimized for **mobile, tablet, and desk
 
 
 
-## 🚀 Live Demo
-[👉 View Live on Vercel](https://your-deployed-link.vercel.app)
 
 
 
@@ -84,6 +82,3 @@ You can deploy this Next.js app on **Vercel**:
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-````
-
