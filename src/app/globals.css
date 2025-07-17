@@ -1,0 +1,53 @@
+@import 'tailwindcss';
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css');
+
+@layer base {
+  html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 85%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+  }
+
+  body {
+    @apply overflow-x-hidden;
+    background-color: rgb(17,17,17);
+    background-size: 300% 300%;
+    animation: gradientBG 12s ease infinite;
+    min-height: 100vh;
+  }
+
+  button,
+  input,
+  a {
+    @apply focus:outline-none focus:ring-0;
+  }
+
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-900;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-cyan-500 rounded-full;
+  }
+}
+
+@layer utilities {
+  .transition-all-linear {
+    transition: all 0.2s linear;
+  }
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
